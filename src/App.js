@@ -1,14 +1,6 @@
 import './App.css';
 import React, {useCallback, useEffect, useState} from 'react';
 
-window.addEventListener("mousedown",function(){
-  //alert("down");
-});
-
-window.addEventListener("mouseup",function(){
-  //alert("up");
-})
-
 const Cell = (props) => {
   const handleMouseOver = event => {
     if(props.mouse===1){
