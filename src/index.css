@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid {
+  display: grid;
+  grid-auto-columns: 21px;
+  grid-auto-rows: 21px;
+}
+
+.cell.alive{
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  outline: 1px solid rgba(144, 175, 175, 0.75);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.cell.dead{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  outline: 1px solid rgba(144, 175, 175, 0.75);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
